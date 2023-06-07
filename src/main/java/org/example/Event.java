@@ -11,6 +11,4 @@ public class Event {
     private int master; // ответственное лицо
     private PersonList personList; //список задействованных сотрудников
 
-
-
 }
