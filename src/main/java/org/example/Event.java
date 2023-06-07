@@ -1,5 +1,6 @@
 package org.example;
 
+import java.security.PrivateKey;
 import java.time.DateTimeException;
 
 // событие
@@ -10,5 +11,7 @@ public class Event {
     private int guests; // количество посетителей
     private int master; // ответственное лицо
     private PersonList personList; //список задействованных сотрудников
+    private String data;
+
 
 }
