@@ -23,11 +23,5 @@ public class Event {
 // PersonList,
 // );
 
-//CREATE TABLE EventType (Id SERIAL PRIMARY KEY,
-// EventType CHARACTER VARYING(30)
-// );
 
-//CREATE TABLE Places (Id SERIAL PRIMARY KEY,
-// PlaceName CHARACTER VARYING(30),
-// Volume INTEGER,
-// Text CHARACTER VARYING(100));
+}
