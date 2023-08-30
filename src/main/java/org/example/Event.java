@@ -45,5 +45,5 @@ public class Event {
 //CREATE TABLE UserFunctions (Id SERIAL PRIMARY KEY,
 // UserFunction CHARACTER VARYING(60) NOT NULL,
 // );
-
+//https://postgrespro.ru/docs/postgresql/9.5/ddl-constraints
 }

@@ -53,6 +53,14 @@
       <option name="presentableId" value="Default" />
       <updated>1686132484289</updated>
     </task>
+    <task id="LOCAL-00001" summary="Работа с БД. Подготовка запросов для создания таблиц.">
+      <created>1693401646720</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693401646720</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -65,5 +73,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Работа с БД. Подготовка запросов для создания таблиц." />
+    <option name="LAST_COMMIT_MESSAGE" value="Работа с БД. Подготовка запросов для создания таблиц." />
   </component>
 </project>
