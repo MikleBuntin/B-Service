@@ -1,6 +1,9 @@
 package org.example;
 
-public class Main {
+public class Application {
+    public void init(){}
+    public void run() {}
+
     public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
         System.out.println("Hello world!");
         Class.forName("org.postgresql.postgresql-42.6.0.jar");
@@ -30,8 +33,9 @@ public class Main {
             } else if (str.equals("1")) Controller.viewPlaceList();
             else if (str.equals("2")) Controller.viewSheduleForPlace();
             else if (str.equals("3")) Controller.addPlace();
-            else if (str.equals("4")) Controller.getCheck();
-            else if (str.equals("5")) Controller.enrollment();
-            else if (str.equals("6")) Controller.consumption();
+//            else if (str.equals("4")) Controller.getCheck();
+//            else if (str.equals("5")) Controller.enrollment();
+//            else if (str.equals("6")) Controller.consumption();
+        }
     }
 }
