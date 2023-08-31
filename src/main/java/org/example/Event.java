@@ -28,13 +28,13 @@ public class Event {
 // SELECT * FROM users, jobtitles WHERE users.jobtitle = jobtitles.jobtitle;
 
 //CREATE TABLE EventTypes (Id SERIAL PRIMARY KEY, EventType CHARACTER VARYING(60) NOT NULL);
-// INSERT INTO EventTypes (EventType) VALUES ('Концерт'), ('Семинар'), ('Репетиция'), ('Соревнования');
+//INSERT INTO EventTypes (EventType) VALUES ('Концерт'), ('Семинар'), ('Репетиция'), ('Соревнования');
 
 //CREATE TABLE Places (Id SERIAL PRIMARY KEY, Place CHARACTER VARYING(30) NOT NULL, Volume Integer);
-// INSERT INTO Places (Place, Volume) VALUES ('Концертны зал МАУ "КСК"', 400), ('Спортзал  МАУ "КСК"', 500), ('Танцевальный зал МАУ "КСК"', 120), ('Фойе МАУ "КСК"', 60), ('Тренажёрный зал МАУ "КСК"', 40);
+//INSERT INTO Places (Place, Volume) VALUES ('Концертны зал МАУ "КСК"', 400), ('Спортзал  МАУ "КСК"', 500), ('Танцевальный зал МАУ "КСК"', 120), ('Фойе МАУ "КСК"', 60), ('Тренажёрный зал МАУ "КСК"', 40);
 
 //CREATE TABLE JobTitles (Id SERIAL PRIMARY KEY, JobTitle CHARACTER VARYING(60) UNIQUE NOT NULL);
-// INSERT INTO JobTitles (JobTitle) VALUES ('Звукорежиссёр'), ('Художник по свету'), ('Главный режиссёр'), ('Начальник отдела информатизации'), ('Волонтёр');
+//INSERT INTO JobTitles (JobTitle) VALUES ('Звукорежиссёр'), ('Художник по свету'), ('Главный режиссёр'), ('Начальник отдела информатизации'), ('Волонтёр');
 
 //CREATE TABLE UserFunctions (Id SERIAL PRIMARY KEY, UserFunction CHARACTER VARYING(60) NOT NULL,);
 // INSERT INTO UserFunctions (UserFunction) VALUES ('Звукорежиссёр'), ('Художник по свету'), ('Фотограф'), ('Оператор видеопроекции'), ('Оператор');
