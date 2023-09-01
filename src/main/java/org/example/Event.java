@@ -23,9 +23,9 @@ public class Event {
 // PersonList,
 // );
 
-//CREATE TABLE Users (Id SERIAL PRIMARY KEY, Name CHARACTER VARYING(100) NOT NULL, JobTitle CHARACTER VARYING(60) REFERENCES JobTitles (JobTitle) NOT NULL);
-// INSERT INTO Users (Name, JobTitle) VALUES ('Бунтин М.А.', 'Главный режиссёр'), ('Щедрин Р.В.', 'Начальник отдела информатизации');
-// SELECT * FROM users, jobtitles WHERE users.jobtitle = jobtitles.jobtitle;
+//CREATE TABLE Users (Id SERIAL PRIMARY KEY, Name CHARACTER VARYING(100) NOT NULL, JobTitle Integer REFERENCES JobTitles (Id) NOT NULL);
+//INSERT INTO Users (Name, JobTitle) VALUES ('Бунтин М.А.', 3), ('Щедрин Р.В.', 4);
+//SELECT * FROM users, jobtitles WHERE users.jobtitle = jobtitles.Id;
 
 //CREATE TABLE EventTypes (Id SERIAL PRIMARY KEY, EventType CHARACTER VARYING(60) NOT NULL);
 //INSERT INTO EventTypes (EventType) VALUES ('Концерт'), ('Семинар'), ('Репетиция'), ('Соревнования');
